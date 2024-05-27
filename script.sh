@@ -6,3 +6,4 @@ else
     echo "User is not root: $USERNAME"
 fi
 uname -a
+scutil --get ComputerName
