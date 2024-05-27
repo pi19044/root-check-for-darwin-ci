@@ -5,3 +5,4 @@ if [ "$(id -u)" -eq 0 ]; then
 else
     echo "User is not root: $USERNAME"
 fi
+uname -a
